@@ -201,12 +201,16 @@
 
 .pricing__title-wrapper {
     height: 150px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 36px;
-    font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.pricing__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+
 }
 
 .pricing__line {
@@ -342,3 +346,4 @@
     box-shadow: 0 0 10px #000000 inset;
     margin-top: -20px;
 }
+
