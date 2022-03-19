@@ -4,6 +4,7 @@
    font-family: 'Raleway', sans-serif;
    width: 1170px;
    margin: auto;
+   padding-top: 50px;
 }
 
 
@@ -16,21 +17,23 @@
 
 
 .title {
-    margin: 0;
+    height: 150px;
     font-size: 36px;
     font-weight: 400; 
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase; 
+    display: flex;
     text-align: center;
+    align-items: center;
 
 }
 
 .subtitle {
     color: #86878B;
     text-align: center;
-    
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
+    margin: auto;
 }
 
 .line { 
@@ -74,9 +77,7 @@
 
 }
 
-.awesome__block-subtitle {
-    font-size: 18px;
-}
+
 
 .tabs {
     width: 1170px;
@@ -212,6 +213,7 @@
     height: 900px;
     margin: auto;
     background-color: #F5F5F5;
+    padding-top: 50px;
     
 }
 
@@ -352,6 +354,9 @@
     margin-top: -20px;
 }
 
+.customers {
+    padding-top: 50px;
+}
 
 
 .customers__content {
@@ -426,3 +431,88 @@
     text-align: left;
 
 }
+
+.design {
+    position: relative;
+    background-image: url(./png/desing\ background.png);
+    
+    height: 442px;
+    width: 1510px;
+    margin: auto;
+    
+    
+}
+
+.design::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+.design__wrapper {
+    top: 50px;
+    position: relative;
+    z-index: 3;
+}
+
+.design__title-wrapper {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.design__title {
+    color: #FFFFFF;
+    
+}
+
+.design__subtitle {
+    color: #FFFFFF;
+}
+
+.design__line {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.design__buttom-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.design__buttom {
+    height: 58px;
+    width: 370px;
+    background: transparent;
+    font-family: 'Open Sans';
+    margin-top: 73px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600px;
+    border: 2px solid #FFFFFF;
+    
+}
+
+.design__buttom:hover {
+    border: 2px solid #EC7979;
+    color: #EC7979;
+    
+
+}
+
+.design__buttom:active {
+    background: #AB4949;
+    border: 2px solid #AB4949;
+    color: #FFFFFF;
+    
+    
+}
+
+
