@@ -21,10 +21,12 @@
     font-size: 36px;
     font-weight: 400; 
     font-family: 'Raleway', sans-serif;
+    color: #000000;
     text-transform: uppercase; 
     display: flex;
     text-align: center;
     align-items: center;
+    margin: auto;
 
 }
 
@@ -85,6 +87,7 @@
     left: 170px;
     top: 1263px;
     margin: auto;
+    padding-top: 100px;
 }
 
 .tabs__button-first {
@@ -515,4 +518,94 @@
     
 }
 
+.contact {
+    padding-bottom: 50px;
+}
+.contact__title-wrapper {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
 
+.contact__form {
+    margin-top: 89px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact__form-wrapper {
+    display: flex;
+}
+
+.contact__input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__message-wrapper {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400, Regular;
+    font-style: normal;
+    color: #BDBDBD;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+input, textarea {
+    border: none;
+    width: 570px;
+    border-bottom: 1px solid #BDBDBD;
+    margin-top: 16px;
+    margin-bottom: 50px;
+    resize: none;
+}
+
+input, textarea:focus {
+    outline: 0;
+}
+
+.contact__buttom-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__buttom {
+    height: 58px;
+    width: 370px;
+    border-radius: 0px;
+    background: #EC7979;
+    height: 58px;
+    font-family: 'Open Sans';
+    margin-top: 27px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Open Sans' ;
+    font-weight: 600px;
+    border: none;
+
+
+}
+
+.contact__buttom:hover {
+    background: #AB4949;
+    
+
+}
+
+.contact__buttom:active {
+    background: #EC7979;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
+    
+}
